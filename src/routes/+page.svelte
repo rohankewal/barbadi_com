@@ -4,6 +4,7 @@
 	import PostList from '../lib/components/PostList.svelte';
 	import CreatePost from '../lib/components/CreatePost.svelte';
 	import PostView from '../lib/components/PostView.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import { themeStore } from '../lib/stores/theme.js';
 	import { postsStore } from '../lib/stores/posts.js';
 
@@ -52,4 +53,6 @@
 			<PostView post={selectedPost} onViewChange={handleViewChange} />
 		{/if}
 	</main>
+
+	<Footer />
 </div>
