@@ -104,7 +104,7 @@
 			variant="ghost"
 			size="sm"
 			onclick={() => onViewChange('forum')}
-			class="modern-button gap-2 border border-border/50 bg-card/80 shadow-md backdrop-blur-sm transition-all duration-300 hover:shadow-lg"
+			class="modern-button gap-2 border border-border/50 bg-card/80 shadow-md backdrop-blur-sm transition-all duration-300 hover:shadow-lg cursor-pointer"
 		>
 			<ArrowLeft class="h-4 w-4" />
 			<span class="hidden sm:inline">Back to Forum</span>
