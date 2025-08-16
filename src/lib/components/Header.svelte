@@ -60,7 +60,7 @@
 					<Heart class="h-7 w-7 text-primary" />
 				</div>
 				<div class="text-left">
-					<h1 class="gradient-text text-2xl font-bold text-black dark:text-white">SafeSpace</h1>
+					<h1 class="text-2xl font-bold text-black dark:text-white">SafeSpace</h1>
 					<p class="text-sm text-muted-foreground">Anonymous Marriage Support</p>
 				</div>
 			</button>

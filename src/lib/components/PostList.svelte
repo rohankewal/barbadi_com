@@ -67,7 +67,7 @@
 				<div class="rounded-full bg-primary/20 p-3">
 					<Users class="h-8 w-8 text-primary" />
 				</div>
-				<h2 class="gradient-text text-3xl font-bold">Community Discussions</h2>
+				<h2 class="text-3xl font-bold text-primary">Community Discussions</h2>
 			</div>
 			<p class="mx-auto max-w-2xl text-lg leading-relaxed text-muted-foreground">
 				Share your story, find support, and connect with others who understand your journey. Every
