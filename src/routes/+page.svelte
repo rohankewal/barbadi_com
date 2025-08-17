@@ -4,6 +4,7 @@
 	import PostList from '../lib/components/PostList.svelte';
 	import CreatePost from '../lib/components/CreatePost.svelte';
 	import PostView from '../lib/components/PostView.svelte';
+	import MyPosts from '$lib/components/MyPosts.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import { themeStore } from '../lib/stores/theme.js';
 	import { postsStore } from '../lib/stores/posts.js';
@@ -51,6 +52,8 @@
 			<CreatePost onViewChange={handleViewChange} />
 		{:else if currentView === 'post' && selectedPost}
 			<PostView post={selectedPost} onViewChange={handleViewChange} />
+		{:else if currentView === 'my-posts'}
+			<MyPosts onViewChange={handleViewChange} />
 		{/if}
 	</main>
 

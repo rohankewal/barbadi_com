@@ -297,7 +297,7 @@
 						<div class="rounded-2xl bg-gradient-to-br from-primary/20 to-purple-500/20 p-3">
 							<Shield class="h-8 w-8 text-primary" />
 						</div>
-						<h1 class="text-3xl font-bold">Secure Access</h1>
+						<h1 class="gradient-text text-3xl font-bold">Secure Access</h1>
 					</div>
 					<p class="text-lg leading-relaxed text-muted-foreground">
 						{storedPhoneNumber
@@ -593,7 +593,7 @@
 								<FileText class="h-8 w-8 text-primary" />
 							</div>
 							<div>
-								<h1 class="mb-2 text-3xl font-bold text-black">My Posts</h1>
+								<h1 class="gradient-text mb-2 text-3xl font-bold">My Posts</h1>
 								<p class="text-lg text-muted-foreground">Posts you've shared from this device</p>
 							</div>
 						</div>
